@@ -58,6 +58,15 @@ const asideMenuConfig = [
     ],
   },
   {
+    name: '集成图表',
+    path: '/chart',
+    icon: 'pin',
+    children: [
+      { name: '柱状图', path: '' },
+      { name: '折线图', path: '' }
+    ]
+  },
+  {
     name: '用户管理',
     path: '/user',
     icon: 'yonghu',
